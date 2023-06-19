@@ -1,2 +1,4 @@
 # url_shortener
-Zadanie rekrutacyjne do Szkoły w chmurach
+Recruitment task for Szkoła w chmurach
+
+Runs on python 3.10.8
