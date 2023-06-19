@@ -8,7 +8,7 @@ class OriginalUrlSerializer(serializers.ModelSerializer):
         fields = ("original_url",)
 
 class ShortenedUrlCreateSerializer(serializers.ModelSerializer):
-    shortened_url = serializers.SerializerMethodField(read_only=True)
+    shortened_url = serializers.SerializerMethodField()
 
     class Meta:
         model = ShortenedUrl
